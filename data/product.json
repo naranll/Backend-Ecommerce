@@ -1,0 +1,32 @@
+[
+  {
+    "description": "Customize a Samsung Bespoke 3- or 4-door French door refrigerator or 4-Door Flex refrigerator with panels available in multiple colors and finishes. ",
+    "name": "4-Door Flex",
+    "image": "https://image-us.samsung.com/SamsungUS/home/home-appliances/refrigerators/090321/rs22t5561sr/RS22T5561SR_01_SIlver_samsung.jpg?$product-details-jpg$",
+    "price": 12222,
+    "stock": 12,
+    "sale": 23,
+    "category": 1000,
+    "brand": 2001
+  },
+  {
+    "name": "HP Elitebook 840",
+    "image": "https://i.ebayimg.com/images/g/E8wAAOSwO9Bjmd1t/s-l1600.jpg",
+    "description": "An item that has been used previously.",
+    "price": 180,
+    "stock": 29,
+    "sale": 0,
+    "category": 1001,
+    "brand": 2004
+  },
+  {
+    "name": "HP Probook 430",
+    "image": "https://i.ebayimg.com/images/g/F2oAAOSwbxBimCXu/s-l1600.jpg",
+    "description": "Touch Convertible Laptop AMD. 1 year Warranty. Free and fast delivery.",
+    "price": 265,
+    "stock": 2,
+    "sale": 15,
+    "category": 1001,
+    "brand": 2004
+  }
+]

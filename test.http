@@ -1,0 +1,20 @@
+GET http://localhost:8000/addDummy http/1.1
+
+###
+
+GET http://localhost:8000/products http/1.1
+
+###
+
+POST http://localhost:8000/products http/1.1
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "iphone"
+}
+
+###
+
+GET http://localhost:8000/categories http/1.1
+
