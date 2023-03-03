@@ -26,11 +26,13 @@ Router.get("/categories", async (req, res) => {
 })
 
 Router.get("/addDummy", async (req, res) => {
-    products.map(prod => {
+    //don't forget await!!!
+    await products.map(prod => {
         let newProdStr = '';
-        newProdStr += prod.name + ', ' + prod.brand + ', ' + prod.category + ', ' + prod.description + ', ' + prod.sale + ', ' + prod.price + ', ' + prod.stock + ', ' + prod.image;
-        // createProduct(newProdStr);
+        //beware of datatypes!!!
+        newProdStr += `'${prod.name}', ${prod.brand} , ${prod.category} , '${prod.description}' , '${prod.sale}' , ${prod.price} , ${prod.stock} , '${prod.image}'`;
         console.log(newProdStr);
+        createProduct(newProdStr);
     })
     res.status(200).send(products);
 })
