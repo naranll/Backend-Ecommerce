@@ -17,6 +17,7 @@ app.use(cors());
 //use middleware
 app.use(Router);
 
+console.log("testing remote origin")
 
 app.listen(port, () => {
     console.log("listening on port 8000");
